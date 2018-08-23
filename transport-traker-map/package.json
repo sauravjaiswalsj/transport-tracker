@@ -1,0 +1,20 @@
+{
+	"name": "transport-traker-map",
+	"version": "1.0.0",
+	"description": "A map showing the real time of a bus",
+	"scripts": {
+			"prettier": "prettier --write --single-quote --bracket-spacing=false public/js/*.js",
+       	                "firebase-init": "firebase init",
+		        "firebase-login": "firebase login --no-localhost",
+    			"firebase-deploy": "firebase deploy"
+	},
+		
+	"author": "Saurav Jaiswal | Akash Sareen",
+	"license": "Apache-2.0",
+	"devDependencies": {
+    "firebase-tools": "^3.6.1",
+    "prettier": "^1.2.2"
+  }
+}
+
+
